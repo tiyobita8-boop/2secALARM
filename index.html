@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="startAlarm()">スタート</button>
+
+<script>
+function startAlarm() {
+  setTimeout(() => {
+    const audio = new Audio('https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3');
+    audio.play();
+    alert("⏰ アラーム！");
+  }, 2000);
+}
+</script>
+
+</body>
+</html>
