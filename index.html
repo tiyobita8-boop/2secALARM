@@ -1,18 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>そらさんポータル</title>
+
+<style>
+body {
+  font-family: "メイリオ", sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+.container {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: block;
+}
+</style>
+
+</head>
+
 <body>
 
-<button onclick="startAlarm()">スタート</button>
+<h1>✨そらさんポータル✨</h1>
 
-<script>
-function startAlarm() {
-  setTimeout(() => {
-    const audio = new Audio('https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3');
-    audio.play();
-    alert("⏰ アラーム！");
-  }, 2000);
-}
-</script>
+<div class="container">
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/shokatai/sample.pdf" target="_blank">
+      松果体ヒーリング（PDF）
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://gamma.app/docs/-m2d2fa8nipfskd8/preview?mode=doc" target="_blank">
+      松果体ヒーリング（資料）
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/pawapuro98_pdf2/" target="_blank">
+      あそび（パワプロ）
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/pomodo-ro25-5/" target="_blank">
+      ポモドーロテクニック
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/100secTimer/" target="_blank">
+      100秒タイマー
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/eki/" target="_blank">
+      易
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/enkaku_counter/" target="_blank">
+      はるみさんへ遠隔カウント
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="https://tiyobita8-boop.github.io/color_Image/" target="_blank">
+      カラーイメージ診断
+    </a>
+  </div>
+
+</div>
 
 </body>
 </html>
