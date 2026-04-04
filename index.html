@@ -15,15 +15,32 @@ h1 {
   margin-top: 30px;
 }
 
+/* ★ここを変更：グリッド化 */
 .container {
-  width: 400px;
+  width: 90%;
+  max-width: 1000px;
   margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+/* スマホ対応（おまけ） */
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
   background: white;
   padding: 15px;
-  margin: 10px 0;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: 0.2s;
@@ -49,97 +66,28 @@ a {
 
 <div class="container">
 
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/shokatai/sample.pdf" target="_blank">
-      松果体ヒーリング（PDF）
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/shokatai/sample.pdf" target="_blank">松果体ヒーリング（PDF）</a></div>
+  <div class="card"><a href="https://gamma.app/docs/-m2d2fa8nipfskd8/preview?mode=doc" target="_blank">松果体ヒーリング（資料）</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/hinokokyu/" target="_blank">火の呼吸カパラパディ</a></div>
 
-  <div class="card">
-    <a href="https://gamma.app/docs/-m2d2fa8nipfskd8/preview?mode=doc" target="_blank">
-      松果体ヒーリング（資料）
-    </a>
-  </div>
- <div class="card">
-    <a href="https://tiyobita8-boop.github.io/hinokokyu/" target="_blank">
-      火の呼吸カパラパディ
-    </a>
-  </div>
-   <div class="card">
-    <a href="https://tiyobita8-boop.github.io/hinokokyu2/" target="_blank">
-      火の呼吸カパラパディ２
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/pawapuro98_pdf2/" target="_blank">
-      あそび（パワプロ）
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/hinokokyu2/" target="_blank">火の呼吸カパラパディ２</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/pawapuro98_pdf2/" target="_blank">あそび（パワプロ）</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/pomodo-ro25-5/" target="_blank">ポモドーロテクニック</a></div>
 
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/pomodo-ro25-5/" target="_blank">
-      ポモドーロテクニック
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/pomodo-ro25-5version2/" target="_blank">ポモドーロテクニック2</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/100secTimer/" target="_blank">100秒タイマー</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/eki/" target="_blank">易</a></div>
 
-    <div class="card">
-    <a href="https://tiyobita8-boop.github.io/pomodo-ro25-5version2/" target="_blank">
-      ポモドーロテクニック2
-    </a>
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/100secTimer/" target="_blank">
-      100秒タイマー
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/eki2/" target="_blank">易2</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/enkaku_counter_cloud/" target="_blank">はるみさんへ遠隔カウント</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/color_Image/" target="_blank">カラーイメージ診断</a></div>
 
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/eki/" target="_blank">
-      易
-    </a>
-  </div>
-  
- <div class="card">
-    <a href="https://tiyobita8-boop.github.io/eki2/" target="_blank">
-      易2
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/enkaku_counter_cloud/" target="_blank">
-      はるみさんへ遠隔カウント
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/sorasanyoutube" target="_blank">そらさんyoutube瞑想</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/okaneguruguru" target="_blank">お金ぐるぐるハッピーソング</a></div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/metronome0450/" target="_blank">メトロノーム</a></div>
 
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/color_Image/" target="_blank">
-      カラーイメージ診断
-    </a>
-  </div>
+  <div class="card"><a href="https://tiyobita8-boop.github.io/isiris_timer/" target="_blank">タイマー</a></div>
 
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/sorasanyoutube" target="_blank">
-      そらさんyoutube瞑想
-    </a>
-  </div>
-
-  <div class="card">
-    <a href="https://tiyobita8-boop.github.io/okaneguruguru" target="_blank">
-      お金ぐるぐるハッピーソング
-    </a>
-  </div>
-
-    <div class="card">
-    <a href="https://tiyobita8-boop.github.io/metronome0450/" target="_blank">
-      メトロノーム
-    </a>
-  </div>
-
-    <div class="card">
-    <a href="https://tiyobita8-boop.github.io/isiris_timer/" target="_blank">
-      タイマー
-    </a>
-  </div>
-
-  
 </div>
 
 </body>
